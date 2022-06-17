@@ -1,0 +1,104 @@
+{
+    "chainId": 43114,
+    "network": "avalanche",
+    "manager": "0x0000000000000000000000000000000000000000",
+    "registry": "0x0000000000000000000000000000000000000000",
+    "factories": [
+        {
+            "id": 0,
+            "address": "0x0000000000000000000000000000000000000000",
+            "vaults": [
+                {
+                    "id": 0,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "name": "Beaker: AV3CRV",
+                    "symbol": "BLP: AV3CRV",
+                    "decimals": 18,
+                    "factory": "0x0000000000000000000000000000000000000000",
+                    "strategy": "0x0000000000000000000000000000000000000000",
+                    "underlying": {
+                        "address": "0x1337BedC9D22ecbe766dF105c9623922A27963EC",
+                        "name": "Curve.fi avDAI/avUSDC/avUSDT",
+                        "symbol": "av3CRV",
+                        "decimals": 18
+                    }
+                },
+                {
+                    "id": 1,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "name": "Beaker: FRAX3CRV",
+                    "symbol": "BLP: FRAX3CRV",
+                    "decimals": 18,
+                    "factory": "0x0000000000000000000000000000000000000000",
+                    "strategy": "0x0000000000000000000000000000000000000000",
+                    "underlying": {
+                        "address": "0xE013593CEA239E445d2271106836b00C9E7356ae",
+                        "name": "Curve.fi Factory USD MetaPool: FRAX",
+                        "symbol": "FRAX3CRV",
+                        "decimals": 18
+                    }
+                },
+                {
+                    "id": 2,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "name": "Beaker: WAVAX-USDC JLP",
+                    "symbol": "BLP: JLP",
+                    "decimals": 18,
+                    "factory": "0x0000000000000000000000000000000000000000",
+                    "strategy": "0x0000000000000000000000000000000000000000",
+                    "underlying": {
+                        "address": "0xf4003F4efBE8691B60249E6afbD307aBE7758adb",
+                        "name": "Joe LP Token",
+                        "symbol": "JLP",
+                        "decimals": 18
+                    }
+                },
+                {
+                    "id": 3,
+                    "address": "Beaker: USDt-USDT.e JLP",
+                    "name": "BLP: JLP",
+                    "symbol": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "factory": "0x0000000000000000000000000000000000000000",
+                    "strategy": "0x0000000000000000000000000000000000000000",
+                    "underlying": {
+                        "address": "0x74B651Eff97871eA99fcc14423E611d85Eb0EA93",
+                        "name": "Joe LP Token",
+                        "symbol": "JLP",
+                        "decimals": 18
+                    }
+                },
+                {
+                    "id": 4,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "name": "Beaker: WAVAX-USDT.e PGL",
+                    "symbol": "BLP: PGL",
+                    "decimals": 18,
+                    "factory": "0x0000000000000000000000000000000000000000",
+                    "strategy": "0x0000000000000000000000000000000000000000",
+                    "underlying": {
+                        "address": "0xe28984e1EE8D431346D32BeC9Ec800Efb643eef4",
+                        "name": "Pangolin Liquidity",
+                        "symbol": "PGL",
+                        "decimals": 18
+                    }
+                },
+                {
+                    "id": 5,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "name": "Beaker: WETH.e-WAVAX PGL",
+                    "symbol": "BLP: PGL",
+                    "decimals": 18,
+                    "factory": "0x0000000000000000000000000000000000000000",
+                    "strategy": "0x0000000000000000000000000000000000000000",
+                    "underlying": {
+                        "address": "0x7c05d54fc5CB6e4Ad87c6f5db3b807C94bB89c52",
+                        "name": "Pangolin Liquidity",
+                        "symbol": "PGL",
+                        "decimals": 18
+                    }
+                }
+            ]
+        }
+    ]
+}
